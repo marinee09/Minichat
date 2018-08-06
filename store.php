@@ -6,7 +6,7 @@ include 'vendor/autoload.php';
 try
 {
 
-    $bdd = new PDO('mysql:host=localhost;dbname=minichat;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=mini_chat_marine;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {
