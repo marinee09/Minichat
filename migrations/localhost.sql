@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : localhost
--- Généré le :  lun. 06 août 2018 à 11:35
+-- Généré le :  lun. 06 août 2018 à 12:30
 -- Version du serveur :  10.1.34-MariaDB
 -- Version de PHP :  7.2.7
 
@@ -21,6 +21,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données :  `mini_chat_marine`
 --
+CREATE DATABASE IF NOT EXISTS `mini_chat_marine` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `mini_chat_marine`;
 
 -- --------------------------------------------------------
 
