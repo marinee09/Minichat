@@ -44,7 +44,6 @@
 
 include 'inc.php';
 
-
 ?>
 </div>  
     <!-- Optional JavaScript -->

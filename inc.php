@@ -1,5 +1,4 @@
 <?php
-
 // Connexion à la base de données
 try
 {
@@ -9,7 +8,6 @@ catch(Exception $e)
 {
         die('Erreur : '.$e->getMessage());
 }
-
 
 // Récupération des 10 derniers messages
 // m = alias de messages
